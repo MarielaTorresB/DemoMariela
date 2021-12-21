@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VuI-kr-QPq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="XN0-Lj-Ofu">
+            <objects>
+                <navigationController id="VuI-kr-QPq" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KTq-8O-OJW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="t1H-UV-YK1" kind="relationship" relationship="rootViewController" id="ylp-bB-HK8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sVa-oB-rd3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1028" y="-449"/>
+        </scene>
+        <!--Mariela Torres-->
+        <scene sceneID="L4s-Z9-q9a">
+            <objects>
+                <viewController id="t1H-UV-YK1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dtl-oC-G4G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acT-ek-5oz">
+                                <rect key="frame" x="20" y="122" width="374" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Yo soy Mariela y tengo 33. Soy originaria de la CDMX. Estudie Quimica pero decidi dar un cambio de carrera y comence a aprender desarrollo web. Ahora estoy tratando de aprender Swift.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l32-Uf-tYR">
+                                <rect key="frame" x="0.0" y="733" width="414" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Mi pasatiempo favorito"/>
+                                <connections>
+                                    <segue destination="45R-Lc-ZTB" kind="show" id="Fd4-ql-EIU"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="photo1640041583-1" translatesAutoresizingMaskIntoConstraints="NO" id="0EK-Zk-hp8">
+                                <rect key="frame" x="0.0" y="217" width="408" height="370"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7p-rB-Gkb">
+                                <rect key="frame" x="-6" y="634" width="414" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Mi serie favorita"/>
+                                <connections>
+                                    <segue destination="gww-ac-Poc" kind="show" id="OYv-ZH-ZzZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eTd-bI-cVq"/>
+                        <color key="backgroundColor" red="0.87533183042440776" green="0.75170640832856839" blue="0.87893503904342651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mariela Torres" id="Aab-NR-Aak"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rxd-OE-yfR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-201.44927536231884" y="-449.33035714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GO2-TF-ff3">
+            <objects>
+                <viewController id="45R-Lc-ZTB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="The-VT-hVX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mi pasatiempo favorito" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNI-Ci-f8c">
+                                <rect key="frame" x="0.0" y="124" width="414" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="tv" translatesAutoresizingMaskIntoConstraints="NO" id="aaj-NR-ho2">
+                                <rect key="frame" x="-83" y="372" width="580" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Por el momento, creo que ver anime, caricaturas y k-dramas y series" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuC-J5-LAd">
+                                <rect key="frame" x="1" y="192" width="413" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6QK-AA-wHD"/>
+                        <color key="backgroundColor" red="0.98182056620113622" green="0.82878187062183351" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZeU-Mx-kWe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K8D-yt-58X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="656.52173913043487" y="51.5625"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ecA-bW-14I">
+            <objects>
+                <viewController id="gww-ac-Poc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="brC-wU-FhX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Malcolm in the middle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GC3-YN-rcK">
+                                <rect key="frame" x="90" y="135" width="235" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podria verla mil veces y no cansarme" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbZ-Ua-qJT">
+                                <rect key="frame" x="0.0" y="191" width="414" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="malcolm-lede-1300x975" translatesAutoresizingMaskIntoConstraints="NO" id="oEG-n0-rO0">
+                                <rect key="frame" x="0.0" y="243" width="428" height="445"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Us6-YM-1xi"/>
+                        <color key="backgroundColor" red="0.9145893737796621" green="0.75143278985781203" blue="0.9163547158241272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QKB-FV-vWR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="thr-8t-E8w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="650.72463768115949" y="-645.53571428571422"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="malcolm-lede-1300x975" width="1300" height="975"/>
+        <image name="photo1640041583-1" width="720" height="504"/>
+        <image name="tv" width="580" height="330"/>
+    </resources>
+</document>
